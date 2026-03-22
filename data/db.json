@@ -1,0 +1,96 @@
+{
+  "exams": [
+    {
+      "id": "general-1",
+      "category": "general",
+      "title": "Sinaq 1",
+      "passScore": 60,
+      "instructions": "Ümumi biliklər imtahanı. 4 blok, hər blokda 25 sual. Hər blok üçün 30 dəqiqə vaxt verilir. Timer imtahan boyu görünür. Bloklar arasında 6 dəqiqə fasilə var və istəyirsinizsə, fasiləni gözləmədən növbəti bloka keçə bilərsiniz.",
+      "createdAt": "2026-02-26T00:00:00.000Z",
+      "updatedAt": "2026-02-26T00:00:00.000Z"
+    },
+    {
+      "id": "analytic-1",
+      "category": "analytic",
+      "title": "Sinaq 1 (Analitik)",
+      "passScore": 60,
+      "instructions": "Analitik Təhlil üzrə Sınaq İmtahanı 3 bölmədən ibarətdir. Bölmələr arasında 6 dəqiqə fasilə var. Verbal bölmədə iştirakçılar hər birində 5 sual olmaqla 5 mətnlə qarşılaşırlar. Hər mətni oxumağa və suallarını işləməyə 12 dəqiqə vaxt ayrılır. Sualların hər biri 4 balla qiymətləndirilir. Eyni mətnin sualları arasında irəli-geri seçimi edə bilərsiniz. \"Digər mətnə keç\" seçimini etdikdən sonra öncəki mətnə qayıtmaq mümkün deyil. Abstrakt bölmədə iştirakçılar 25 sualla qarşılaşırlar. Ümumilikdə 50 dəqiqə vaxt ayrılır. İlk 5 sual 2 balla, sonrakı 15 sual 4 balla, son 5 sual isə 6 balla qiymətləndirilir. Rəqəmsal bölmədə iştirakçılar 25 sualla qarşılaşırlar. Ümumilikdə 75 dəqiqə vaxt ayrılır. İlk 5 sual 2 balla, sonrakı 15 sual 4 balla, son 5 sual isə 6 balla qiymətləndirilir.",
+      "createdAt": "2026-02-26T00:00:00.000Z",
+      "updatedAt": "2026-02-26T00:00:00.000Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "examId": "general-1",
+      "section": "BLOK_1",
+      "text": "Nümunə sual: Azərbaycan Respublikasının paytaxtı hansıdır?",
+      "score": 1,
+      "image": null,
+      "options": [
+        "Bakı",
+        "Gəncə",
+        "Sumqayıt",
+        "Şəki",
+        "Lənkəran"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "examId": "general-1",
+      "section": "BLOK_1",
+      "text": "Şəkilə bax: dairənin rəngi hansıdır?",
+      "score": 2,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27360%27%20height%3D%27180%27%3E%0A%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20fill%3D%27%231f0a3d%27/%3E%0A%3Ccircle%20cx%3D%2790%27%20cy%3D%2790%27%20r%3D%2755%27%20fill%3D%27%23fbbf24%27/%3E%0A%3Ctext%20x%3D%27190%27%20y%3D%27105%27%20font-size%3D%2722%27%20fill%3D%27white%27%20font-family%3D%27Arial%27%3EN%C3%BCmun%C9%99%20%C5%9F%C9%99kil%3C/text%3E%0A%3C/svg%3E",
+      "options": [
+        "Sarı",
+        "Mavi",
+        "Yaşıl",
+        "Qara",
+        "Qırmızı"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "a1",
+      "examId": "analytic-1",
+      "section": "VERBAL_1",
+      "text": "Mətn 1-ə görə: mətnin əsas mövzusu nədir?",
+      "score": 1,
+      "image": null,
+      "options": [
+        "Təhsil",
+        "İdman",
+        "Səyahət",
+        "Maliyyə",
+        "Təbiət"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ab1",
+      "examId": "analytic-1",
+      "section": "ABSTRACT",
+      "text": "Nümunə Abstrakt: şəkillər ardıcıllığında növbəti fiqur hansıdır?",
+      "score": 2,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27360%27%20height%3D%27180%27%3E%0A%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20fill%3D%27%231f0a3d%27/%3E%0A%3Crect%20x%3D%2760%27%20y%3D%2750%27%20width%3D%2760%27%20height%3D%2760%27%20fill%3D%27%2360a5fa%27/%3E%0A%3Crect%20x%3D%27150%27%20y%3D%2750%27%20width%3D%2760%27%20height%3D%2760%27%20fill%3D%27%23f472b6%27/%3E%0A%3Crect%20x%3D%27240%27%20y%3D%2750%27%20width%3D%2760%27%20height%3D%2760%27%20fill%3D%27%23a3e635%27/%3E%0A%3C/svg%3E",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "verbalPassages": [
+    {
+      "id": "p1",
+      "examId": "analytic-1",
+      "section": "VERBAL_1",
+      "text": "Bu, nümunə Verbal mətndir. Admin paneldə VERBAL_1 üçün bu mətni dəyişdirə bilərsiniz. Mətnin ardınca 5 sual gəlməlidir (nümunə üçün 1 sual əlavə olunub)."
+    }
+  ]
+}

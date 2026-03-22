@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { noIndexMetadata } from "@/lib/seo";
+export const metadata: Metadata = { ...noIndexMetadata };
+export default function ExamFlowLayout({ children }: { children: React.ReactNode }) { return children; }

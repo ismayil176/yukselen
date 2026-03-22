@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Container } from "@/components/Container";
+import { pageMetadata } from "@/lib/seo";
+export const metadata: Metadata = pageMetadata({ title: "Sınağa başla", description: "Yüksəliş hazırlıq sınaqları üçün kateqoriya seçin və uyğun imtahana başlayın.", path: "/start" });
+const cards = [{ slug: "umumi-bilikler", title: "Ümumi Biliklər", disabled: false }, { slug: "analitik-tehlil", title: "Analitik Təhlil", disabled: false }, { slug: "idareetme-bacariqlari", title: "İdarəetmə Bacarıqları", disabled: true }] as const;
+export default function StartPage() { return <main className="min-h-[calc(100vh-72px)] py-10"><Container><div className="mx-auto max-w-5xl"><h1 className="text-2xl font-bold text-purple-950">Kateqoriya seç</h1><p className="mt-2 text-slate-700">Aşağıdakı bölmələrdən birini seçərək imtahana başla.</p><div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{cards.map((c) => { const actionLabel = c.disabled ? "Tezliklə" : "Sınağa başla"; const CardInner = <div className="h-full rounded-2xl border border-black/10 bg-white p-6 text-purple-950 shadow-sm"><div className="text-lg font-extrabold text-purple-950">{c.title}</div><div className="mt-6 inline-flex rounded-xl bg-white px-4 py-2 text-sm font-semibold text-purple-950">{actionLabel}</div></div>; return c.disabled ? <div key={c.slug} className="opacity-60">{CardInner}</div> : <Link key={c.slug} href={`/start/${c.slug}`} className="block">{CardInner}</Link>; })}</div></div></Container></main>; }
